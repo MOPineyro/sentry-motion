@@ -29,7 +29,4 @@ Motion::Project::App.setup do |app|
   app.pods do
     pod 'Sentry', :git => 'git@github.com:getsentry/sentry-objc.git'
   end
-
-  # TODO: add runtime support for fetching configured App ID
-  # app.files << 'rubymotion_lib/crittercism.rb'
 end
